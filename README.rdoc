@@ -150,6 +150,14 @@ Install the Ruby gem (library) called +watchr+ and then ask it to
     # decide to run rake automatically from now on as you edit
     gem install watchr
     watchr ./koans/koans.watchr
+    _________________________
+    In my case, watchr is failing so I've decided to use Observr
+    sudo gem install observr
+    this is my source for the fixing
+    https://github.com/mynyml/watchr/issues/58
+
+    Now it works!
+    _________________________
 
 == Inspiration
 
